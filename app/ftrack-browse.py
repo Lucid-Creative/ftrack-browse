@@ -115,7 +115,7 @@ class Browser(ttk.Frame):
 
         ### Args:
         - **parent_node_id**: string for the *ttk.Treeview* item id to use as the parent
-        - **ftrack_type**: string of the type to retrieve from ftrack
+        - **iterable**: an iterable type to populate the branch with
         '''
         logger = logging.getLogger(__name__)
 
