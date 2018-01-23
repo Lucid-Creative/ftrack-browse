@@ -18,7 +18,7 @@ from collections import defaultdict
 
 import ftrack_api
 
-limit=500
+limit=10000
 
 class Browser(ttk.Frame):
 
